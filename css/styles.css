@@ -1,24 +1,24 @@
 :root {
-/*colors*/
---body-color: #F5F5F5;
---link-color: #357b70;
---visited-link-color: #05676e;
---active-link-color: #489c79;
---button-text-boarder-color: #000000;
---bg-grid-and-aboutbutton: #FFFAF0;
---animation-0-color: #edc655;
---animation-50to100-color: #f76414;
-/*font-weight*/
---font-weight-body: 400;
---font-weight-h1: 700;
---font-weight-h2: 700;
---font-weight-h3: 700;
-/*font-size*/
---font-size-body: 16px;
---font-size-h1: 30px;
---font-size-h2: 24px;
---font-size-h3: 18px;
---font-size-h1-mediaq: 22px;
+/* colors */ 
+  --body-color: #F5F5F5;
+  --link-color: #357b70;
+  --visited-link-color: #05676e;
+  --active-link-color: #489c79;
+  --button-text-boarder-color: #000000;
+  --bg-grid-and-aboutbutton: #FFFAF0;
+  --animation-0-color: #edc655;
+  --animation-50to100-color: #f76414;
+  /* font-weight */
+  --font-weight-body: 400;
+  --font-weight-h1: 700;
+  --font-weight-h2: 700;
+  --font-weight-h3: 700;
+  /* font-size */
+  --font-size-body: 16px;
+  --font-size-h1: 30px;
+  --font-size-h2: 24px;
+  --font-size-h3: 18px;
+  --font-size-h1-mediaq: 22px;
 }
 
 * {
@@ -222,7 +222,7 @@ button:hover, button:focus {
 	0% {
 		fill: var(--animation-0-color);
 	}
-	50% {
+	50% {
 		fill: var(--animation-50to100-color);
 	}
 	100% {
