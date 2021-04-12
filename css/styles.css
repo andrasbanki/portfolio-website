@@ -222,6 +222,18 @@ button:hover button:focus {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .img.page-header__item {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .img.profile__portrait {
+    width: 30%;
+  }
+}
+
 @keyframes color-change {
   0% {
     fill: var(--animation-0-color);
