@@ -58,7 +58,7 @@ a:active {
 }
 
 button {
-  border: undefined;
+  border: 2px solid #000;
   font-family: inherit;
   background-color: #f5f5f5;
   color: #000;
@@ -267,7 +267,7 @@ button:hover button:focus {
   }
 
   100% {
-    fill: undefined;
+    fill: #f76414;
   }
 }
 
