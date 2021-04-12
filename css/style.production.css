@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 :root {
   /* colors */
 
@@ -131,6 +124,10 @@ button:hover button:focus {
   text-decoration: none;
 }
 
+.work {
+  padding: 30px;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
@@ -145,6 +142,7 @@ button:hover button:focus {
   width: auto;
   min-height: auto;
   margin: 0;
+  padding: 8px;
 }
 
 .grid__item:last-child {
@@ -166,7 +164,6 @@ button:hover button:focus {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   margin-bottom: 20px;
 }
@@ -214,6 +211,39 @@ button:hover button:focus {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+.contact-container {
+  padding: 30px;
+  text-align: center;
+}
+
+#contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: auto;
+  gap: 20px;
+  overflow: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-header__item {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .profile__portrait {
+    width: 30%;
+  }
+}
+
 @media all and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
@@ -243,18 +273,6 @@ button:hover button:focus {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .img.page-header__item {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .img.profile__portrait {
-    width: 30%;
-  }
-}
-
 @-webkit-keyframes color-change {
   0% {
     fill: #edc655;
@@ -265,7 +283,7 @@ button:hover button:focus {
   }
 
   100% {
-    fill: undefined;
+    fill: #f76414;
   }
 }
 
