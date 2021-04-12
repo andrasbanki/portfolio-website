@@ -243,6 +243,18 @@ button:hover button:focus {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .img.page-header__item {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .img.profile__portrait {
+    width: 30%;
+  }
+}
+
 @-webkit-keyframes color-change {
   0% {
     fill: #edc655;
