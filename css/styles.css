@@ -129,6 +129,10 @@ button:hover button:focus {
   text-decoration: none;
 }
 
+.work {
+  padding: 30px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -141,6 +145,7 @@ button:hover button:focus {
   width: auto;
   min-height: auto;
   margin: 0;
+  padding: 8px;
 }
 
 .grid__item:last-child {
@@ -195,6 +200,32 @@ button:hover button:focus {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+.contact-container {
+  padding: 30px;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 20px;
+  overflow: auto;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-header__item {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .profile__portrait {
+    width: 30%;
+  }
+}
+
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
@@ -219,18 +250,6 @@ button:hover button:focus {
 
   h1 {
     font-size: var(--font-size-h1-mediaq);
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .img.page-header__item {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .img.profile__portrait {
-    width: 30%;
   }
 }
 
