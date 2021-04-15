@@ -13,8 +13,5 @@ Skills: HTML / CSS / JS
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/andrasbanki)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/andras-banki-76a54120a//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/https://www.instagram.com/andras_banki//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg' alt='codepen' height='40'>](https://codepen.io/https://codepen.io/andrasbanki)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://andrasbanki.github.io/portfolio-website/index.html)  
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=https://github.com/andrasbanki&show_icons=true)  
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=andrasbanki)](https://github.com/anuraghazra/github-readme-stats)
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=https://github.com/andrasbanki)  
-
-![Profile views](https://gpvc.arturio.dev/https://github.com/andrasbanki)
