@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,34 +9,28 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,200;1,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.production.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-
 <body>
-
-<header class="page-header animate__animated animate__backInUp">
-	<a href="index.html">
-		<img class="page-header__item" src="img/logo.png" alt="Andras Banki logo">
-	</a>	
-	<nav class="main-navigation page-header__item">
-		<ul role="menubar" class="navigation-list">
-			<li role="presentation">
-				<a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
-			</li>
-			<li role="presentation">
-				<a href="#aboutpage" role="menuitem" aria-label="About me" class="navigation-list__item">About</a>
-			</li>
-			<li role="presentation">
-				<a href="#workpage" role="menuitem" class="navigation-list__item">Work</a>
-			</li>
-			<li role="presentation">
-				<a href="#contactpage" role="menuitem" class="navigation-list__item">Contact</a>
-			</li>
-		</ul>
-	</nav>
-</header>
-
+  <header class="page-header animate__animated animate__backInUp">
+    <a href="index.html"><img class="page-header__item" src="img/logo.png" alt="Andras Banki logo"></a>	
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="#aboutpage" role="menuitem" aria-label="About me" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="#workpage" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="#contactpage" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <div class="profile">
     <img src="img/Profile-picture.jpeg" class="profile__portrait animate__animated animate__backInLeft" alt="Andras-Banki-Profile-picture">
     <p class="introText animate__animated animate__backInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tincidunt neque, facilisis ultricies augue. In id sem
@@ -46,128 +39,115 @@
     litora torquent per conubia nostra, per inceptos himenaeos. Aenean sed convallis massa, sit amet vehicula tortor.
     Integer mauris magna, blandit nec fermentum eu, condimentum at dui.</p>
   </div>
-
-<div id="aboutpage">
-  <div class="aboutme">
-    <h1 id="about">About me</h1>
-    <p class="aboutme__info">
-      My name is Andras Banki. I am a Berlin-based Hungarian <span>web </span> developer student.
-    </p>
-    <div>
-      <a href="https://codepen.io/andrasbanki" class="button" target="_blank">Check out some of my code</a><br>
-      <a href="files/Andras_Banki_CV.pdf" class="button" target="_blank" download>Download my CV</a>
-      <div id="svg-placeholder" class="svg"></div>
-      <h1>Skill Set</h1>
+  <div id="aboutpage">
+    <div class="aboutme">
+      <h1 id="about">About me</h1>
+      <p class="aboutme__info">My name is Andras Banki. I am a Berlin-based Hungarian <span>web </span> developer student.</p>
+      <div>
+        <a href="https://codepen.io/andrasbanki" class="button" target="_blank">Check out some of my code</a><br>
+        <a href="files/Andras_Banki_CV.pdf" class="button" target="_blank" download>Download my CV</a>
+        <div id="svg-placeholder" class="svg"></div>
+        <h1>Skill Set</h1>
+      </div>
     </div>
   </div>
-</div>
-<div class="skills">
-  <div class="bar intermediate" data-skill="Angular"></div>
-  <div class="bar back intermediate" data-skill="React"></div>
-  <div class="bar back intermediate" data-skill="JavaScript"></div>
-  <div class="bar front advanced" data-skill="CSS3"></div>
-  <div class="bar front advanced" data-skill="HTML5"></div>
-</div>
-
-<div id="workpage">
-  <h1 class="myProjects">My Projects</h1>
-  <section class="work">
-    <div class="grid">
-      <div class="grid__item">
-        <h2>JavaScript App (Pokédex)</h2>
-        <img src='img/Pokedex.png' alt='photo of pokedexApp' class='projekt'>
-        <p>A small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the
-          viewing of
-          data points in detail.</p>
-        <a href="https://andrasbanki.github.io/Pokedex/" target="_blank">Project link</a><br>
-        <a href="https://github.com/andrasbanki/Pokedex" target="_blank">GitHub Repository</a>
-      </div>
-      <div class="grid__item">
-        <h2>React App <br> (myFlix)</h2>
-        <img src='img/myFlix.png' alt='photo of myFlixApp' class='projekt'>
-        <p>This web application will provide users with access to information about different movies, directors and
-          genres. Users
-          will be able to sign up, update their personal information, and create a list of their favorite movies.</p>
-        <a href="https://andrasbanki-myflixapp.netlify.app/" target="_blank">Project link</a><br>
-        <a href="https://github.com/andrasbanki/myFlix-client" target="_blank">GitHub Repository (Front-end)</a>
-        <a href="https://github.com/andrasbanki/myFlix" target="_blank">GitHub Repository (Back-end)</a>
-      </div>
-      <div class="grid__item">
-        <h2>To-Do List App built with Redux</h2>
-        <img src='img/ToDoList.png' alt='photo of ToDoListApp' class='projekt'>
-        <p>A basic To-Do-List app with the following features: the user can add a new item to a list of items, cross out
-          an item from the list of items, delete an item from the list of items and change the order of items in the list
-          of items.</p>
-        <a href="https://andrasbanki.github.io/to-do-list-app/" target="_blank">Project link</a><br>
-        <a href="https://github.com/andrasbanki/to-do-list-app" target="_blank">GitHub Repository</a>
-      </div>
-      <div class="grid__item">
-        <h2>Meet App</h2>
-        <img src='img/Meet.png' alt='photo of MeetApp' class='projekt'>
-        <p>A serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The
-          application uses the Google Calendar API to fetch upcoming events.</p>
-        <a href="https://andrasbanki.github.io/meet/" target="_blank">Project link</a><br>
-        <a href="https://github.com/andrasbanki/meet" target="_blank">GitHub Repository</a>
-      </div>
-      <div class="grid__item">
-        <h2>Angular App (myFlix)</h2>
-        <img src='img/myFlixAngular1.png' alt='photo of ChatApp' class='projekt'>
-        <p>Using Angular, build the client-side for an application called myFlix based on its existing server-side code
-          (myFlix API
-          and database), with supporting documentation.</p>
-        <a href="https://andrasbanki.github.io/myFlix-Angular-client/" target="_blank">Project link</a><br>
-        <a href="https://github.com/andrasbanki/myFlix-Angular-client" target="_blank">GitHub
-          Repository(Front-end)</a><br>
-        <a href="https://github.com/andrasbanki/myFlix" target="_blank">GitHub Repository (Back-end)</a>
-      </div>
-      <div class="grid__item">
-        <h2>React Native Mobile Chat App</h2>
-        <img src='img/chatApp.png' alt='photo of ChatApp' class='projekt_chatapp'>
-        <p>This chat app for mobile devices using React Native. The app will provide users with a chat interface and
-          options to
-          share images and their location.</p>
-        <a href="https://github.com/andrasbanki/Chat-App" target="_blank">GitHub Repository</a>
-      </div>
-    </div>
-  </section>
-</div>
-
-<div id="contactpage" class="contactpage">
-  <div class="contact-container grid_contact">
-    <div class="grid__contact">
-      <h1>Contact me:</h1>
-    </div>
-    <div class="grid__contact">
-      <h3>Address</h3>
-      12345 Berlin
-      Germany
-    </div>
-    <div class="grid__contact">
-      <b>Tel</b> <a href="tel:+4917612345678" aria-label="Phone number">+49 176 1234 5678</a><br>
-      <b>Skype</b> <a href="skype:Andras-Banki">Andras Banki</a><br>
-      <b>E-mail</b> <a href="mailto:contactme@gmail.com">contactme@gmail.com</a>
-    </div> 
+  <div class="skills">
+    <div class="bar intermediate" data-skill="Angular"></div>
+    <div class="bar back intermediate" data-skill="React"></div>
+    <div class="bar back intermediate" data-skill="JavaScript"></div>
+    <div class="bar front advanced" data-skill="CSS3"></div>
+    <div class="bar front advanced" data-skill="HTML5"></div>
   </div>
-</div>
-
-<footer class="page-footer">
-	<p class="findMe">Find me on</p>
-	<div class="social-media">
-		 <a href="https://github.com/andrasbanki/" target="_blank">
-		 	<img src="img/github.svg" alt="Github link">
-		 </a>
-		 <a href="https://www.linkedin.com/in/andras-banki-76a54120a/" target="_blank">
-		 	<img src="img/linkedin.svg" alt="Linkedin link">
-		 </a>
-		 <a href="https://twitter.com/" target="_blank">
-		 	<img src="img/twitter.svg" alt="Twitter link">
-		 </a>
-	 </div>
-</footer>
-
-<script src="js/tota11y.min.js"></script>
-<script src="js/building-svg.js"></script>
-
+  <div id="workpage">
+    <h1 class="myProjects">My Projects</h1>
+    <section class="work">
+      <div class="grid">
+        <div class="grid__item">
+          <h2 class="projekt_head">JavaScript App (Pokédex)</h2>
+          <img src='img/Pokedex.png' alt='photo of pokedexApp' class='projekt'>
+          <p>A small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the
+            viewing of data points in detail.
+          </p>
+          <a href="https://andrasbanki.github.io/Pokedex/" target="_blank">Project link</a><br>
+          <a href="https://github.com/andrasbanki/Pokedex" target="_blank">GitHub Repository</a>
+        </div>
+        <div class="grid__item">
+          <h2 class="projekt_head">React App (myFlix)</h2>
+          <img src='img/myFlix.png' alt='photo of myFlixApp' class='projekt'>
+          <p>This web application will provide users with access to information about different movies, directors and
+            genres. Users
+            will be able to sign up, update their personal information, and create a list of their favorite movies.
+          </p>
+          <a href="https://andrasbanki-myflixapp.netlify.app/" target="_blank">Project link</a><br>
+          <a href="https://github.com/andrasbanki/myFlix-client" target="_blank">GitHub Repository (Front-end)</a>
+          <a href="https://github.com/andrasbanki/myFlix" target="_blank">GitHub Repository (Back-end)</a>
+        </div>
+        <div class="grid__item">
+          <h2 class="projekt_head">To-Do List App</h2>
+          <img src='img/ToDoList.png' alt='photo of ToDoListApp' class='projekt'>
+          <p>A basic To-Do-List app built with Redux and has the following features: the user can add a new item to a list of items, cross out
+            an item from the list of items, delete an item from the list of items and change the order of items in the list
+            of items.
+          </p>
+          <a href="https://andrasbanki.github.io/to-do-list-app/" target="_blank">Project link</a><br>
+          <a href="https://github.com/andrasbanki/to-do-list-app" target="_blank">GitHub Repository</a>
+        </div>
+        <div class="grid__item">
+          <h2 class="projekt_head">Meet App</h2>
+          <img src='img/Meet.png' alt='photo of MeetApp' class='projekt'>
+          <p>A serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The
+            application uses the Google Calendar API to fetch upcoming events.
+          </p>
+          <a href="https://andrasbanki.github.io/meet/" target="_blank">Project link</a><br>
+          <a href="https://github.com/andrasbanki/meet" target="_blank">GitHub Repository</a>
+        </div>
+        <div class="grid__item">
+          <h2 class="projekt_head">Angular App (myFlix)</h2>
+          <img src='img/myFlixAngular1.png' alt='photo of ChatApp' class='projekt'>
+          <p>Using Angular, build the client-side for an application called myFlix based on its existing server-side code
+            (myFlix API and database), with supporting documentation.
+          </p>
+          <a href="https://andrasbanki.github.io/myFlix-Angular-client/" target="_blank">Project link</a><br>
+          <a href="https://github.com/andrasbanki/myFlix-Angular-client" target="_blank">GitHub
+            Repository(Front-end)</a><br>
+          <a href="https://github.com/andrasbanki/myFlix" target="_blank">GitHub Repository (Back-end)</a>
+        </div>
+        <div class="grid__item">
+          <h2 class="projekt_head">React Native Mobile Chat App</h2>
+          <img src='img/chatApp.png' alt='photo of ChatApp' class='projekt_chatapp'>
+          <p>This chat app for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their location.
+          </p>
+          <a href="https://github.com/andrasbanki/Chat-App" target="_blank">GitHub Repository</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="contactpage" class="contactpage">
+    <div class="contact-container grid_contact">
+      <div class="grid__contact">
+        <h1>Contact me</h1>
+      </div>
+      <div class="grid__contact">
+        <h3>Address</h3>
+        <p>12345 Berlin, Germany</p>
+      </div>
+      <div class="grid__contact">
+        <b>Tel</b> <a href="tel:+4917612345678" aria-label="Phone number">+49 176 1234 5678</a><br>
+        <b>Skype</b> <a href="skype:Andras-Banki">Andras Banki</a><br>
+        <b>E-mail</b> <a href="mailto:contactme@gmail.com">contactme@gmail.com</a>
+      </div> 
+    </div>
+  </div>
+  <footer class="page-footer">
+    <p class="findMe">Find me on</p>
+    <div class="social-media">
+      <a href="https://github.com/andrasbanki/" target="_blank"><img src="img/github.svg" alt="Github link"></a>
+      <a href="https://www.linkedin.com/in/andras-banki-76a54120a/" target="_blank"><img src="img/linkedin.svg" alt="Linkedin link"></a>
+      <a href="https://twitter.com/andras_banki" target="_blank"><img src="img/twitter.svg" alt="Twitter link"></a>
+      <a href="https://medium.com/@abankiandras" target="_blank"><img src="img/medium_logo_icon.svg" alt="Medium link"></a>
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+  <script src="js/building-svg.js"></script>
 </body>
-
-</html>	
+</html>

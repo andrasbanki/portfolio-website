@@ -145,7 +145,7 @@ button:hover button:focus {
 
 .myProjects {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -245,11 +245,15 @@ button:hover button:focus {
     background-color: #fffaf0;
     min-height: auto;
     width: auto;
-    padding: 8px;
-    text-align: center;
+    padding: 12px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    text-align: justify;
+}
+
+.projekt_head {
+    text-align: center;
 }
 
 .grid__item:last-child {
