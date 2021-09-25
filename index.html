@@ -16,35 +16,53 @@
     <a href="index.html"><img class="page-header__item" src="img/logo.png" alt="Andras Banki logo"></a>	
     <nav class="main-navigation page-header__item">
       <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="#aboutpage" role="menuitem" aria-label="About me" class="navigation-list__item">About</a>
-        </li>
-        <li role="presentation">
-          <a href="#workpage" role="menuitem" class="navigation-list__item">Work</a>
-        </li>
-        <li role="presentation">
-          <a href="#contactpage" role="menuitem" class="navigation-list__item">Contact</a>
-        </li>
+        <li role="presentation"><a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a></li>
+        <li role="presentation"><a href="#aboutpage" role="menuitem" aria-label="About me" class="navigation-list__item">About</a></li>
+        <li role="presentation"><a href="#workpage" role="menuitem" class="navigation-list__item">Work</a></li>
+        <li role="presentation"><a href="#contactpage" role="menuitem" class="navigation-list__item">Contact</a></li>
       </ul>
     </nav>
   </header>
   <div class="profile">
     <img src="img/Profile-picture.jpeg" class="profile__portrait animate__animated animate__backInLeft" alt="Andras-Banki-Profile-picture">
-    <p class="introText animate__animated animate__backInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tincidunt neque, facilisis ultricies augue. In id sem
-    nibh. Donec sed massa massa. Aliquam erat volutpat. Aliquam id nisi sit amet nunc commodo imperdiet. Fusce cursus, elit
-    non bibendum luctus, dolor ipsum rhoncus massa, fermentum porttitor nulla dui non metus. Class aptent taciti sociosqu ad
-    litora torquent per conubia nostra, per inceptos himenaeos. Aenean sed convallis massa, sit amet vehicula tortor.
-    Integer mauris magna, blandit nec fermentum eu, condimentum at dui.</p>
+    <p class="introText animate__animated animate__backInRight">Full-Stack Web Developer with a goal to fulfil the wishes of clients by building websites with a great technical stack
+    and visual design. A problem solver who likes to check the structure and infrastructure of websites and developer tools
+    in order to continually learn and constantly improve. Strong passion for long-lasting first-impressions through
+    combining timeless designs and new technologies.</p>
   </div>
   <div id="aboutpage">
     <div class="aboutme">
       <h1 id="about">About me</h1>
-      <p class="aboutme__info">My name is Andras Banki. I am a Berlin-based Hungarian <span>web </span> developer student.</p>
+      <p class="aboutme__info">Hello, András here. A Berlin-based web developer, with great communication skills honed in the hospitality industry. I
+      worked for a variety of restaurants from hip to high-class, learning to engage people with all kinds of backgrounds. Now
+      I am ready to take on a new challenge in my new profession. I am looking forward to putting my diligence, dependability
+      and creativity to work in a new team, and be an open minded and resourceful partaker in my upcoming projects.<br><br>
+      Whilst my background is not in technology, it still helped me to build a strong base of skills that I can use as a
+      web-developer too. Coming from the hospitality environment I had to demonstrate dynamic collaboration, excellent
+      communication skills, and flawless time-management across teams to provide a high level service.<br><br>
+      I enjoyed my time in the service environment and did it with passion. However, informatics was something that interested
+      me ever since I had my first PC, and I decided to pursue this interest.<br><br>
+      In the past year, I studied as a Full Stack Web Developer at CareerFoundry with the focus on technologies like:</p><br><br>
+      <div class="aboutme__info_skills">
+      • HTML<br>
+      • CSS<br>
+      • Javascript<br>
+      • Node.js<br>
+      • React/Redux<br>
+      • TypeScript<br>
+      • SQL<br>
+      • MongoDB<br>
+      • Angular.js<br>
+      • Mobile App development (React Native)<br>
+      • Etc.
+      </div>
+      <br><br>
+      <p class="aboutme__info">I enjoy the challenge of finding a solution to a problem. I am open towards new technologies, and I love to see how a
+      project develops step by step. I want to become an expert web-developer, with a strong general base and a focus on data
+      management and design. I am open for any project where I can work with and learn from other web-developers. If you are
+      interested in a collaboration or simply have an interesting article to share, drop me a message.</p>
       <div>
-        <a href="https://codepen.io/andrasbanki" class="button" target="_blank">Check out some of my code</a><br>
+        <a href="https://github.com/andrasbanki/" class="button" target="_blank">Check out some of my code</a><br>
         <a href="files/Andras_Banki_CV.pdf" class="button" target="_blank" download>Download my CV</a>
         <div id="svg-placeholder" class="svg"></div>
         <h1>Skill Set</h1>
@@ -52,11 +70,13 @@
     </div>
   </div>
   <div class="skills">
-    <div class="bar intermediate" data-skill="Angular"></div>
-    <div class="bar back intermediate" data-skill="React"></div>
-    <div class="bar back intermediate" data-skill="JavaScript"></div>
-    <div class="bar front advanced" data-skill="CSS3"></div>
     <div class="bar front advanced" data-skill="HTML5"></div>
+    <div class="bar front advanced" data-skill="CSS3"></div>
+    <div class="bar back intermediate" data-skill="JavaScript"></div>
+    <div class="bar back intermediate" data-skill="React"></div>
+    <div class="bar back intermediate" data-skill="Node.js"></div>
+    <div class="bar intermediate" data-skill="Angular"></div>    
+    <div class="bar mongodb intermediate" data-skill="MongoDB"></div>
   </div>
   <div id="workpage">
     <h1 class="myProjects">My Projects</h1>
@@ -81,6 +101,9 @@
           <a href="https://andrasbanki-myflixapp.netlify.app/" target="_blank">Project link</a><br>
           <a href="https://github.com/andrasbanki/myFlix-client" target="_blank">GitHub Repository (Front-end)</a>
           <a href="https://github.com/andrasbanki/myFlix" target="_blank">GitHub Repository (Back-end)</a>
+          <div class="caseStudyButton">
+            <a href="CaseStudy.html" class="button">Case Study</a>
+          </div>
         </div>
         <div class="grid__item">
           <h2 class="projekt_head">To-Do List App</h2>
@@ -95,7 +118,7 @@
         <div class="grid__item">
           <h2 class="projekt_head">Meet App</h2>
           <img src='img/Meet.png' alt='photo of MeetApp' class='projekt'>
-          <p>A serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The
+          <p>A server-less, progressive web application (PWA) with React using a test-driven development (TDD) technique. The
             application uses the Google Calendar API to fetch upcoming events.
           </p>
           <a href="https://andrasbanki.github.io/meet/" target="_blank">Project link</a><br>
@@ -104,7 +127,7 @@
         <div class="grid__item">
           <h2 class="projekt_head">Angular App (myFlix)</h2>
           <img src='img/myFlixAngular1.png' alt='photo of ChatApp' class='projekt'>
-          <p>Using Angular, build the client-side for an application called myFlix based on its existing server-side code
+          <p>Using Angular, built the client-side for an application called myFlix based on its existing server-side code
             (myFlix API and database), with supporting documentation.
           </p>
           <a href="https://andrasbanki.github.io/myFlix-Angular-client/" target="_blank">Project link</a><br>
@@ -124,17 +147,16 @@
   </div>
   <div id="contactpage" class="contactpage">
     <div class="contact-container grid_contact">
-      <div class="grid__contact">
+      <div>
         <h1>Contact me</h1>
       </div>
       <div class="grid__contact">
         <h3>Address</h3>
-        <p>12345 Berlin, Germany</p>
+        <p>10409 Berlin, Germany</p>
       </div>
       <div class="grid__contact">
-        <b>Tel</b> <a href="tel:+4917612345678" aria-label="Phone number">+49 176 1234 5678</a><br>
         <b>Skype</b> <a href="skype:Andras-Banki">Andras Banki</a><br>
-        <b>E-mail</b> <a href="mailto:contactme@gmail.com">contactme@gmail.com</a>
+        <b>E-mail</b> <a href="mailto:contactme@gmail.com">abankiandras@gmail.com</a>
       </div> 
     </div>
   </div>

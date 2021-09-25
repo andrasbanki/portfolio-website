@@ -69,7 +69,7 @@ button:hover button:focus {
 .profile {
     max-width: 700px;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
     padding-top: 90px;
     letter-spacing: 3px;
 }
@@ -198,6 +198,10 @@ button:hover button:focus {
     background-color: #334c58;
 }
 
+.bar.mongodb::before {
+    background-color: #4baf89;
+}
+
 .bar.learning::before {
     width: calc(20% - 10px);
 }
@@ -234,7 +238,9 @@ button:hover button:focus {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     margin: auto;
-    grid-gap: 25px;
+    grid-gap: 20px;
+    justify-content: center;
+    text-align: center;
 }
 
 .introText {
@@ -267,7 +273,7 @@ button:hover button:focus {
 .grid__contact {
     background-color: #fffaf0;
     width: auto;
-    height: 100px;
+    height: auto;
     margin: 0;
     -ms-grid-column: 1;
     grid-column: 1;
@@ -302,6 +308,12 @@ button:hover button:focus {
     opacity: 0.8;
 }
 
+.caseStudyButton {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .aboutme {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -317,7 +329,14 @@ button:hover button:focus {
 }
 
 .aboutme__info {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 700px;
+}
+
+.aboutme__info_skills {
+    width: 600px;
+    text-align: justify;
 }
 
 .aboutme__table {
@@ -340,13 +359,26 @@ button:hover button:focus {
 }
 
 .contact-container {
-    padding-top: 200px;
+    padding-top: 220px;
     margin: 30px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
     padding-bottom: 70px;
+}
+
+.CaseStudyText {
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin: 130px;
+}
+
+.CaseStudyPicture {
+    max-width: 50%;
+    height: auto;
+    padding-bottom: 30px;
 }
 
 .projekt {

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andras Banki - Portfolio</title>
+  <link rel="shortcut icon" href="img/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,200;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <header class="page-header animate__animated animate__backInUp">
+    <a href="index.html"><img class="page-header__item" src="img/logo.png" alt="Andras Banki logo"></a>
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation"><a href="index.html" role="menuitem"
+            class="navigation-list__item navigation-list__item--active">Home</a></li>
+        <li role="presentation"><a href="index.html#aboutpage" role="menuitem" aria-label="About me"
+            class="navigation-list__item">About</a></li>
+        <li role="presentation"><a href="index.html#workpage" role="menuitem" class="navigation-list__item">Work</a></li>
+        <li role="presentation"><a href="index.html#contactpage" role="menuitem" class="navigation-list__item">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="CaseStudyText">
+    <h1>Case Study for myFlix movie app</h1><br><br>
+    <h2>Overview</h2><br>
+    This application displays a list of movies, directors and genres and their details. The users are able to create an
+    account, save their favourite movies to a list, and update their personal information.<br><br>
+    <h2>Purpose and Context</h2><br>
+    This project was a part of my Full-Stack Immersion course at CareerFoundry. I worked alone on this project, and I used
+    the complete MERN (MongoDB, Express, React, and Node.js) stack. The concept of this project is to learn how can we
+    connect a self-built database with a self-built user interface.<br><br>
+    <h2>Objective</h2><br>
+    My aim on this application was to show what I learned about MERN and how to use them. The problem what I solved here was
+    to make the connection between the server and the client-side, and display that for the users. The goal was to create a
+    smooth-working movie database, where the user can find their favourite movies and read about them, or just simply scroll
+    and browse movies.<br><br>
+    <h2>Approach</h2><br>
+    The server-side is created as a RESTful API. Here I used Node.js and Express and pushed it to MongoDB (relational
+    database). The client can use 3 HTTP methods: GET (to get data), PUSH (to change data), and POST (to add data). The API
+    uses JSON format and has JWT authentication and has authorization as well. I used Postman to test it - see screenshots
+    below.<br><br>
+    <img src='img/Screenshot_4.png' alt='photo of Postman Screenshot' class="CaseStudyPicture"><br>
+    <img src='img/Screenshot_5.png' alt='photo of Postman Screenshot' class="CaseStudyPicture"><br>
+    The client-side is created with React/Redux. The concept here was to create a useful single page application, with a
+    responsive interface to making requests and receiving responses from the server-side. It was built with different views,
+    like registration view, login view, profile view and a main view.<br><br>
+    <h2>Duration</h2><br>
+    The client-side project was the longest one through my course. It took me a bit longer than what I originally scheduled
+    for this achievement, because I needed more time to look deep into React, how the props and states are working, and so
+    on.<br><br>
+    <h2>Credit</h2><br>
+    My role in this project was Lead Developer. I had a great mentor, Renish Bashkaran, and tutor, Blaise Bakundukize. They
+    helped me a lot with understanding the concept and fine tuning the results.<br><br>
+    <h2>Challenges</h2><br>
+    The most challenging part of this project was to fetch the information from the database and display it. I created
+    separate collections for directors and genres, which made it harder to get the data. In the end I found the solution
+    after reading related articles and speaking with my mentor. I now know that the easiest way is to have all the data in
+    one collection, but I also learned to use “populate” for cases where the data is in separate collections. Next time I
+    run into this situation I’ll know what to do.<br><br>
+    <h2>Conclusion</h2><br>
+    It was a pleasure to work on this project, I learned a lot about client and server-side as well. It was nice to see how
+    the user can receive data from the database. React has a lot of great opportunities to display data and MongoDB is a
+    well-made database with a great user interface and support.
+  </div>
+  <script src="js/tota11y.min.js"></script>
+  <script src="js/building-svg.js"></script>
+</body>
+    
+</html>
