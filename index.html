@@ -83,7 +83,7 @@
     <section class="work">
       <div class="grid">
         <div class="grid__item">
-          <h2 class="projekt_head">JavaScript App (Pokédex)</h2>
+          <h2 class="projekt_head">Pokédex - JS App</h2>
           <img src='img/Pokedex.png' alt='photo of pokedexApp' class='projekt'>
           <p>A small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the
             viewing of data points in detail.
@@ -136,7 +136,7 @@
           <a href="https://github.com/andrasbanki/myFlix" target="_blank">GitHub Repository (Back-end)</a>
         </div>
         <div class="grid__item">
-          <h2 class="projekt_head">React Native Mobile Chat App</h2>
+          <h2 class="projekt_head">React Native Mobile App</h2>
           <img src='img/chatApp.png' alt='photo of ChatApp' class='projekt_chatapp'>
           <p>This chat app for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their location.
           </p>
@@ -154,10 +154,12 @@
         <h3>Address</h3>
         <p>10409 Berlin, Germany</p>
       </div>
-      <div class="grid__contact">
-        <b>Skype</b> <a href="skype:Andras-Banki">Andras Banki</a><br>
-        <b>E-mail</b> <a href="mailto:contactme@gmail.com">abankiandras@gmail.com</a>
-      </div> 
+      <form id="form" class="topBefore" action="mail.php" method="post">
+        <input id="name" type="text" placeholder="NAME" name="name">
+        <input id="email" type="email" name="emailaddress" placeholder="E-MAIL">
+        <textarea id="message" type="text" name="message" placeholder="MESSAGE"></textarea>
+        <input id="submit" type="submit" value="GO!">
+      </form>
     </div>
   </div>
   <footer class="page-footer">
