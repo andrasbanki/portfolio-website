@@ -404,6 +404,12 @@ button:hover button:focus {
     box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
 }
 
+.thankyou {
+    justify-content: center;
+    text-align: center;
+    padding: 150px;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
 input::-webkit-input-placeholder,
