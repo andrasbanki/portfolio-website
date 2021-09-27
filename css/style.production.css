@@ -589,6 +589,20 @@ textarea:hover {
     }
 }
 
+@media all and (max-width: 400px) {
+    .aboutme__info {
+        width: auto;
+    }
+
+    .svg {
+        width: auto;
+    }
+
+    .topBefore {
+        width: auto;
+    }
+}
+
 @media all and (max-width: 500px) {
     .grid {
         -ms-grid-columns: 1fr;
